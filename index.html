@@ -14,7 +14,7 @@
           <ul class="main-nav">
             <li class="hover">
               <a class="item-open" href="#">Commercial</a>
-              <ul class="sub-nav commercial-list">
+              <ul class="sub-nav">
                 <li><a href="#">First item</a></li>
                 <li><a href="#">Second item</a></li>
                 <li><a href="#">Third item</a></li>
@@ -22,7 +22,7 @@
             </li>
             <li class="hover">
               <a class="item-open" href="#">Industrial</a>
-              <ul class="sub-nav industrial-list">
+              <ul class="sub-nav">
                 <li><a href="#">First item</a></li>
                 <li><a href="#">Second item</a></li>
                 <li><a href="#">Third item</a></li>
@@ -30,7 +30,7 @@
             </li>
             <li class="hover">
               <a class="item-open" href="#">Infrastructure</a>
-              <ul class="sub-nav infra-list">
+              <ul class="sub-nav">
                 <li><a href="#">First item</a></li>
                 <li><a href="#">Second item</a></li>
                 <li><a href="#">Third item</a></li>
@@ -46,10 +46,30 @@
         <p>Trent from punchy pint when lets get some snag. Get a dog up ya moolah piece of piss trent from punchy slaps. Shazza got us some chuck a sickie heaps he hasn't got a kindie. As stands out like bush telly with as stands out like porky. She'll be right pretty spiffy trent from punchy cab sav.</p>
       </section>
       <section class="main">
-        <div class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo nisi, feugiat vel placerat vitae, vulputate ac nibh. Ut scelerisque quis nulla sed tempor.</div>
-        <div class="text">
-          <h3>Lorem ipsum dolor sit amet consectetur</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo nisi, feugiat vel placerat vitae, vulputate ac nibh. Ut scelerisque quis nulla sed tempor. Maecenas viverra leo sed risus laoreet rutrum. Praesent lobortis ultrices vestibulum. Mauris rhoncus sagittis elit, a congue justo eleifend adipiscing. Ut pulvinar dignissim ante, at mollis justo laoreet et. Vestibulum viverra purus ligula, in placerat sapien condimentum nec. In diam nulla, pharetra dapibus molestie vitae, luctus a ante.</p>
+        <div class="slide" dir="ltr" data-glider-controls="glider-bottom">
+          <ul>
+            <li>
+              <div class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo nisi, feugiat vel placerat vitae, vulputate ac nibh. Ut scelerisque quis nulla sed tempor.</div>
+              <div class="text">
+                <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo nisi, feugiat vel placerat vitae, vulputate ac nibh. Ut scelerisque quis nulla sed tempor. Maecenas viverra leo sed risus laoreet rutrum. Praesent lobortis ultrices vestibulum. Mauris rhoncus sagittis elit, a congue justo eleifend adipiscing. Ut pulvinar dignissim ante, at mollis justo laoreet et. Vestibulum viverra purus ligula, in placerat sapien condimentum nec. In diam nulla, pharetra dapibus molestie vitae, luctus a ante.</p>
+              </div>
+            </li>
+            <li>
+              <div class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo nisi, feugiat vel placerat vitae, vulputate ac nibh. Ut scelerisque quis nulla sed tempor.</div>
+              <div class="text">
+                <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo nisi, feugiat vel placerat vitae, vulputate ac nibh. Ut scelerisque quis nulla sed tempor. Maecenas viverra leo sed risus laoreet rutrum. Praesent lobortis ultrices vestibulum. Mauris rhoncus sagittis elit, a congue justo eleifend adipiscing. Ut pulvinar dignissim ante, at mollis justo laoreet et. Vestibulum viverra purus ligula, in placerat sapien condimentum nec. In diam nulla, pharetra dapibus molestie vitae, luctus a ante.</p>
+              </div>
+            </li>
+            <li>
+              <div class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo nisi, feugiat vel placerat vitae, vulputate ac nibh. Ut scelerisque quis nulla sed tempor.</div>
+              <div class="text">
+                <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo nisi, feugiat vel placerat vitae, vulputate ac nibh. Ut scelerisque quis nulla sed tempor. Maecenas viverra leo sed risus laoreet rutrum. Praesent lobortis ultrices vestibulum. Mauris rhoncus sagittis elit, a congue justo eleifend adipiscing. Ut pulvinar dignissim ante, at mollis justo laoreet et. Vestibulum viverra purus ligula, in placerat sapien condimentum nec. In diam nulla, pharetra dapibus molestie vitae, luctus a ante.</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
       <footer class="main-footer">
@@ -116,5 +136,10 @@
         </ul>
       </footer>
     </div>
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      var gliders = $('.slide').glider();
+    </script>
   </body>
 </html>
